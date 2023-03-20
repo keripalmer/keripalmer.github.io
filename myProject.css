@@ -1,15 +1,20 @@
-.body {
+  <style>
+  img {
+  display: center;
+}
+body {
     border: 2px;
     Margin: 50px;
-    background-color: lightblue;
+    background-color: lightsteelblue;
 }
 
-.h1 {
-    color: navy;
-    margin-left: 30px;
+h1 {
+    ont-family: "Lucida Console", "Papyrus", Monaco;
+    font-size: 1em;
+    font-color: midnightblue;
 }
 
-.footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -18,7 +23,14 @@
     color: white;
     text-align: center;
  }
- .p {
-    font-family: "Lucida Console", "Papyrus", Monaco;
-    font-size: 0.75em;
+ p {
+    ont-family: "Lucida Console", "Papyrus", Monaco;
+    font-size: 1.5em;
+    font-color: midnightblue;
  }
+ ul {
+    font-family: "Papyrus", Monaco;
+    font-size: 1.5em;
+    font-color: indigo;        
+}
+</style>
